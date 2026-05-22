@@ -1,0 +1,30 @@
+# 환경 변수 (비밀번호·DB URL 등 — GitHub에 올리지 않음)
+.env
+.env.*
+!.env.example
+configure.env
+
+# 의존성
+node_modules/
+
+# 로그
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 에디터 / IDE (개인 설정)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 테스트 / 커버리지
+coverage/
+
+# 임시 파일
+*.tmp
+.cache/
