@@ -18,10 +18,10 @@ export default function MovieCard({ movie, onWriteReview }) {
       <div className="movie-card__body">
         <h2 className="movie-card__title">{movie.title}</h2>
         <p className="movie-card__meta">
-          <span className="movie-card__label">장르</span> {movie.genre}
+          <span className="movie-card__label">장르 :</span> {movie.genre}
         </p>
         <p className="movie-card__meta">
-          <span className="movie-card__label">개봉일</span> {movie.release_date}
+          <span className="movie-card__label">개봉일 :</span> {movie.release_date}
         </p>
         <StarRating value={avgRating} label={`${movie.title} 평균 ${avgRating}점`} />
         <p className="movie-card__review">

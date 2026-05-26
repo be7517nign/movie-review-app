@@ -1,5 +1,12 @@
 # 영화 리뷰 앱
 
+## 웹 사이트 (와이어프레임 UI)
+
+**실제 앱 화면:** https://be7517nign.github.io/movie-review-app/
+
+> GitHub 저장소 페이지(https://github.com/be7517nign/movie-review-app)는 **코드·문서**가 보이는 곳입니다.  
+> 위 **GitHub Pages** 링크를 열어야 영화 리뷰·관리자 화면이 나옵니다.
+
 영화 제목을 등록하고, 리뷰와 별점(1~5)을 작성·수정·삭제할 수 있는 풀스택 웹 앱입니다.
 
 ## 기술 스택
